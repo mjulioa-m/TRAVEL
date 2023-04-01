@@ -66,7 +66,7 @@ namespace Travel
                     spa.UseReactDevelopmentServer(npmScript: "start");
                 }
             });
-            //new Travel.BD.Models.Context.BDContextModel().generarDB();
+            new Travel.BD.Models.Context.BDContextModel().generarDB();
         }
     }
 }
